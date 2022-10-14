@@ -15,15 +15,15 @@ using namespace std;
     float strtof(const char* str, char** endptr);
         // char* 轉 float
     long int strtol(const char* str, char** endptr, int base);
-        // char*(base) 轉 long int 且指向轉換子字串之末
+        // char*(base) 轉 long int 且指向轉換子字串之後
     long double strtold(const char* str, char** endptr);
-        // char*(base) 轉 long double 且指向轉換子字串之末
+        // char*(base) 轉 long double 且指向轉換子字串之後
     long long int strtoll(const char* str, char** endptr, int base);
-        // char*(base) 轉 long long int 且指向轉換子字串之末
+        // char*(base) 轉 long long int 且指向轉換子字串之後
     unsigned long int strtoul(const char* str, char** endptr, int base);
-        // char*(base) 轉 unsigned long int 且指向轉換子字串之末
+        // char*(base) 轉 unsigned long int 且指向轉換子字串之後
     unsigned long long int strtoull(const char* str, char** endptr, int base);
-        // char*(base) 轉 unsigned long long int 且指向轉換子字串之末
+        // char*(base) 轉 unsigned long long int 且指向轉換子字串之後
 // Function: Integer arithmetics
     int abs(int n);
     long int llabs(long int n);
