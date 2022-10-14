@@ -1,5 +1,6 @@
 #include <algorithm>
 using namespace std;
+{
     // FI(ForwaradIterator)
     // RAI(RandomAccessIterator)
     // BI(BidirectionalIterator)
@@ -19,3 +20,4 @@ using namespace std;
 
     bool prev_permutation(BI first, BI last);
     /* 針對逆向排序(由大到小)的資料，產生上一組排序 */
+}
