@@ -1,7 +1,5 @@
 #include <cstdlib>
 using namespace std;
-
-int main() {
 // Function: String conversion
     double atof(const char* str);
         // Convert string to double
@@ -30,7 +28,3 @@ int main() {
     long int llabs(long int n);
     long long int llabs(long long int n);
         // Absolute value
-
-
-    return 0;
-}
